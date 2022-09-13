@@ -1,0 +1,74 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #4F545F;
+    font-size: 13px;
+}
+
+h1{
+   font-size: 25px;
+   background-color: #55B3C5;
+   color: white;
+   padding: 20px;
+   margin: 0;
+}
+
+fieldset{
+    border: 2px dashed #dddddd;
+    padding: 20px;
+    margin: 20px;
+}
+
+form span{ 
+    border: 1px solid #6278B0;
+    display: block;
+    padding: 20px 40px;
+    background: url('./../images/infoicon.png') no-repeat #CCE9F8;
+    background-position: 10px 15px;
+}
+
+ul{
+    background-color: gray;
+    padding: 20px;
+    margin: 0;
+    margin-block-start: 0;
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+}
+
+.formElement, #country{
+    font-size: 14px;
+    width: 300px;
+    padding: 5px;
+}
+
+.formButtons.buttonHover{
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+
+#submitButton{
+    background-color: #56C56F;
+}
+
+#submitButton:hover{
+    background-color: #98e2aa;
+}
+
+#cancelButton{
+    background-color: #D9534F;
+}
+
+#cancelButton:hover{
+    background-color: #d57975;
+}
