@@ -27,3 +27,13 @@ h1 {
     padding: 15px;
     margin-bottom: 20px;
 }
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    color: gray;
+}
+
+a {
+    color: skyblue;
+}
