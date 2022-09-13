@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <title>
+        This is my first html page
+    </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>
+            Registry Form
+        </h1>
+    </header>
+    <nav>
+        <ul id="menu">
+            <li id="home">
+                Home
+            </li>
+            <li id="about">
+                About the site
+            </li>
+            <li id="registry">
+                Registry
+            </li>
+            <li id="contact">
+                Contact
+            </li>
+            <li id="copyright">
+                Copyright
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="registrySection" class="currentSelected">
+            <form>
+                <fieldset>
+                    <legend>
+                        New Account Registry
+                    </legend>
+                    <span class="info">
+                        Your information is safe with us
+                    </span>
+                    <p>
+                        <label for="fullName"> Complete name </label>
+                    </p>
+                    <input class="formElement" id="fullName" type="text" />
+                    <p>
+                        <label for="email"> Email </label>
+                    </p>
+                    <input class="formElement" id="email" type="text" />
+                    <p>
+                        <label for="password"> Password </label>
+                    </p>
+                    <input class="formElement" id="password" type="password" />
+
+                    <p>
+                        <label for="passwordConfirmation"> Password confirmation </label>
+                    </p>
+                    <input class="formElement" id="passwordConfirmation" type="password" />
+                    <p>Country</p>
+                    <select id="country">
+                        <option value="0"> Select a country... </option>
+                        <option value="MX"> México </option>
+                        <option value="US"> USA </option>
+                        <option value="FR"> France </option>
+                    </select>
+                    <p>
+                        Gender
+                    </p>
+                    <p>
+                        <input type="radio" name="gender" id="masculine" value="M" /> <label for="masculine"> Masculine
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" name="gender" id="feminine" id="value=" F" /> <label for="feminine">
+                            Feminine </label>
+                    </p>
+                    <input class="buttonHover formButtons" id="cancelButton" type="submit" value="Cancel" />
+                    <input class="buttonHover formButtons" id="submitButton" type="submit" value="Submit" />
+                </fieldset>
+            </form>
+</body>
+
+</html>
