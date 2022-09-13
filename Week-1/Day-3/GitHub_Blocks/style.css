@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.row1 {
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.row2 {
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.row3 {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-bottom: 20px;
+}
