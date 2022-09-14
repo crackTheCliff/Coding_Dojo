@@ -1,0 +1,60 @@
+header {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    flex: 2;
+}
+
+.logo>img {
+    width: 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+
+.menu>li {
+    margin-left: 15px;
+}
+
+main {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.product {
+    flex: 1;
+    border: 1px solid gray;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+/*
+.product3{
+    flex: 3;
+}
+*/
+
+/*
+ul {
+    height: 200px;
+    border: 1px solid black;
+}
+*/
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
