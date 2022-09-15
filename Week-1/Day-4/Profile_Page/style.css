@@ -184,8 +184,8 @@ h2 {
 }
 
 .avatar {
+    background-color: rgb(93, 93, 93);    
     border-radius: 50%;
-    background-color: darkgrey;
     height: 100px;
     padding: 5px;
     margin-top: 45px;
