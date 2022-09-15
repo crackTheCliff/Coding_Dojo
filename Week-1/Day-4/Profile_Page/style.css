@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #dbdbdb;
+}
+
+/* navBar below */
+
+.nav-bar {
+    font-family: "Roboto";
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(93, 93, 93);
+}
+
+.nav-title {
+    color: rgb(224, 165, 88);
+    padding-left: 50px;
+}
+
+span {
+    color: #4cbcc0;
+}
+
+.nav-links,
+a {
+    display: flex;
+    color: tan;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul>li {
+    margin-right: 10px;
+    padding-right: 50px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 70px;
+    background-color: #4cbcc0;
+    font-size: 14px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+
+/* cards below */
+
+.profile-body {
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 23%;
+    padding-right: 24%;
+    padding-bottom: 25px;
+}
+
+.column,
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 25px;
+}
+
+.column {
+    flex: 2;
+}
+
+.column-2 {
+    flex: 1;
+}
+
+.user-card,
+.edu-card,
+.request-card,
+.connect-card {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.edu-card {
+    height: 250px;
+}
+
+.request-card {
+    height: 250px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.connect-card {
+    height: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-header {
+    background-color: cadetblue;
+    height: 100px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+}
+
+.card-header-2 {
+    background-color: cadetblue;
+    height: 40px;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card-header-3 {
+    background-color: cadetblue;
+    height: 50px;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 10px 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.request {
+    background-color: darkgrey;
+    border: 1px solid darkgray;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.friends {
+    background-color: darkgrey;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    height: 25px;
+    width: 50px;
+    margin-right: 25px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: darkgrey;
+    height: 100px;
+    padding: 5px;
+    margin-top: 45px;
+    margin-left: 28px;
+}
+
+.profile-photo {
+    height: 55px;
+    width: 55px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+.user-requests {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contacts>h3 {
+    padding-left: 20px;
+}
+
+.icons {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.icon {
+    height: 40px;
+}
+
+a {
+    color: #4cbcc0;
+    text-decoration: none;
+}
+
+.card-foot {
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: center;
+}
