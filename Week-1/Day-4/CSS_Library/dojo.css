@@ -1,0 +1,147 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* from the Button Up assignment */
+.btn {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+/* from the FLEX-ible Columns assignment */
+.row {
+    display: flex;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: seagreen;
+    border-radius: 10px;
+}
+
+/* from the Flex Navbar assignment */
+.navbar {
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(93, 93, 93);
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+
+.nav-title {
+    padding-left: 20px;
+    color: tan;
+}
+
+.nav-links,
+a {
+    display: flex;
+    color: tan;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul>li {
+    margin: 13px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.btn {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    background-color: rgb(18, 245, 169);
+    font-size: 14px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+
+/* i thought this User_card style was nice :) */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: tan;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 400px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card {
+    width: 700px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: cadetblue;
+    height: 125px;
+    margin-bottom: 70px;
+    border-bottom: 2px solid black;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 15px 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: darkgrey;
+    height: 100px;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.icons {
+    height: 20px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
