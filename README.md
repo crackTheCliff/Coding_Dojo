@@ -1,3 +1,3 @@
 # Hello World
     
-Follow my journey through webFundamentals!
+Follow my bootcamp journey with Coding Dojo!
