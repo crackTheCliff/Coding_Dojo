@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="navTitle">Dojonary</div>
+        <input placeholder=" Search..." type="text" class="search">
+        <button type="button" class="loginBtn" id="loginBtn" onclick="changeText(this)">Login</button>
+    </header>
+
+    <div class="container">
+        <div class="profileBodyLeft">
+            <div class="ninja">
+                <div class="leftBar">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural: <span>ninjas</span></h3>
+                    <button type="button" class="likeBtn" onclick="addLikes(this)">Like</button>
+                </div>
+                <div class="rightBar">
+                    <p>A practitioner skilled in the<br>
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="ninja">
+                <div class="leftBar">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural: <span>ninjas</span></h3>
+                    <button type="button" class="likeBtn" onclick="addLikes(this)">Like</button>
+                </div>
+                <div class="rightBar">
+                    <p>A <a href="#">programmer</a> who breaks<br>
+                        down problems with <a href="#"> zen</a>-like<br>
+                        focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="profileBodyRight">
+            <div class="sideBox">
+                <h2>Dojonary is<br>
+                    defined by YOU</h2>
+                <button type="button" class="addDef" id="addDef" onclick="removeText()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
