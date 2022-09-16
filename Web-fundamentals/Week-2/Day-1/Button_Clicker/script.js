@@ -16,4 +16,5 @@ function removeText() {
 
 function addLikes() {
     var button = document.getElementById("likeBtn");
+    alert("Ninja was liked!")
 }
