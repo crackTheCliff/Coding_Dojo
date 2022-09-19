@@ -137,9 +137,8 @@ ul>li {
     font-weight: bold;
     text-align: center;
     align-items: center;
-    align-self: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .card-body {
