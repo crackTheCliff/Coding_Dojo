@@ -1,0 +1,52 @@
+/* CSS for mobile devices and above */
+div {
+    padding: 15px;
+}
+
+.blackBorder {
+    border: 2px solid black;
+}
+
+.blueBorder {
+    border: 2px solid blue;
+}
+
+.redBorder {
+    border: 2px solid red;
+}
+
+/* CSS for tablets */
+@media only screen and (min-width: 600px) {
+    div {
+        background-color: aqua;
+    }
+
+    .blackBorder {
+        display: flex;
+    }
+
+    .blueBorder {
+        flex: 1;
+    }
+}
+
+/* CSS for larger screens */
+@media only screen and (min-width: 980px) {
+    div {
+        background-color: green;
+    }
+
+    .firstSection {
+        flex: 1;
+        /* display: none; */
+    }
+
+    .secondSection {
+        flex: 3;
+        display: flex;
+    }
+
+    .redBorder {
+        flex: 1;
+    }
+}
