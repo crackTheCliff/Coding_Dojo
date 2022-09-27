@@ -23,7 +23,8 @@ def valuesGreaterThanSecond(list):
         return False
     arr = []
     for i in range(0,len(list)):
-        arr.append(list[i])
+        if list[i] > list[1]:
+            arr.append(list[i])
     print(len(arr))
     return arr
 print(valuesGreaterThanSecond([5,2,3,2,1,4]))
