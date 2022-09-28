@@ -15,6 +15,7 @@ class User:
         if self.is_rewards_member == True:
             print("You are already enrolled!")
         else:
+            self.gold_card_points += 200
             self.is_rewards_member = True
         return self
 
