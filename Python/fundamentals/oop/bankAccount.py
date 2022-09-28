@@ -25,7 +25,7 @@ class Bank_Account:
         if self.balance > 0:
             self.balance += (self.balance * self.int_rate)
         else:
-            print('Your account balance is negative')
+            print('Your account balance is negative!')
         return self
 
     @classmethod
