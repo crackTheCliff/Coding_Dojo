@@ -38,9 +38,9 @@ kyrie = {
         "team": "Brooklyn Nets"
 }
 
-player_jason = Player(jason)
 player_kevin = Player(kevin)
+player_jason = Player(jason)
 player_kyrie = Player(kyrie)
-print(player_jason)
 print(player_kevin)
+print(player_jason)
 print(player_kyrie)
