@@ -28,4 +28,4 @@ class Pet:
     def noise(self):
         print(self.noise)
 
-my_pet = Pet("Freya", "Cat", ['jump', 'rolls', 'sleep'], "Meow")
+
