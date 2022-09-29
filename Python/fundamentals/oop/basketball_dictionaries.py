@@ -6,9 +6,9 @@ class Player:
         self.team = data['team']
 
     @classmethod
-    def add_players(cls, data):
+    def get_team(cls, team_list):
         player_objects = []
-        for dict in data:
+        for dict in team_list:
             player_objects.append(cls(dict))
         return player_objects
 
