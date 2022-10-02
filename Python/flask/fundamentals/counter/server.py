@@ -5,17 +5,15 @@ app.secret_key = 'the force is with you'
 @app.route('/')
 def index():
     if "count" in session:
-        session["count"] + 1
+        session["count"] += 1
     else:    
         session["count"] = 1
     return render_template("counter.html")
 
-@app.route("/count", methods=["POST"])
+@app.route("/count")
 def view_count():
-    if request.form["alter"]=="add":
+    if "count" in session:
         session["count"] += 1
-    elif request.form["alter"]=="reset":
-        session["count"] = 1
     return redirect("/")
 
 @app.route("/destroy")

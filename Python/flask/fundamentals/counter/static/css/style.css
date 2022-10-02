@@ -12,6 +12,13 @@ body{
 p{
     font-size: large;
 }
+button a, button a:visited{
+    text-decoration: none;
+    color: black;
+}
+button {
+    cursor: pointer;
+}
 .add_button{
     height: 50px;
     width: 100px;
