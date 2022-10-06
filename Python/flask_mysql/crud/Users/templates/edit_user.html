@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>New User</title>
+    <title>Edit User</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,24 +19,25 @@
 
 <body class="container d-flex justify-content-center align-items-center flex-column">
 
-    <form action="/user/create" method="POST" class="col-10 p-5 d-flex align-items-center flex-column">
-        <h2 class="text-center text-white m-4">Create New User</h2>
+    <form action="/user/update" method="POST" class="col-6 p-5 bg-dark d-flex align-items-center flex-column">
+        <h2 class="text-center text-white m-4">Edit {{user.first_name}}</h2>
+        <input type="hidden" name="id" value="{{user.id}}">
         <div class="form-group text-white">
             <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" class="form-control">
+            <input type="text" name="first_name" class="form-control" value="{{user.first_name}}">
         </div>
         <div class="form-group text-white">
             <label for="last_name">Last Name:</label>
-            <input type="text" name="last_name" class="form-control">
+            <input type="text" name="last_name" class="form-control" value="{{user.last_name}}">
         </div>
         <div class="form-group text-white">
             <label for="email">Email:</label>
-            <input type="text" name="email" class="form-control">
+            <input type="text" name="email" class="form-control" value="{{user.email}}">
         </div>
-        <input type="submit" name="Add User" class="btn btn-success m-2">
+        <input type="submit" value="Update User" class="btn btn-success m-2">
+        <a class="btn btn-warning m-2" href="/user/show/{{ user.id }}">Show</a>
         <a class="btn btn-primary m-2" href="/">Home</a>
     </form>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

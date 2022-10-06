@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>New User</title>
+    <title>View User</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,33 +10,29 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        body{
-            background-color: #343A40;
-        }
-    </style>
 </head>
 
-<body class="container d-flex justify-content-center align-items-center flex-column">
-
-    <form action="/user/create" method="POST" class="col-10 p-5 d-flex align-items-center flex-column">
-        <h2 class="text-center text-white m-4">Create New User</h2>
-        <div class="form-group text-white">
-            <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" class="form-control">
-        </div>
-        <div class="form-group text-white">
-            <label for="last_name">Last Name:</label>
-            <input type="text" name="last_name" class="form-control">
-        </div>
-        <div class="form-group text-white">
-            <label for="email">Email:</label>
-            <input type="text" name="email" class="form-control">
-        </div>
-        <input type="submit" name="Add User" class="btn btn-success m-2">
-        <a class="btn btn-primary m-2" href="/">Home</a>
-    </form>
-
+<body class="bg-dark d-flex align-items-center flex-column">
+    <h2 class="text-white text-center m-4">User #{{user.id}}</h2>
+    <table class="table table-hover table-dark table-striped d-flex align-items-center flex-column">
+        <tbody>
+            <tr>
+                <td>Full Name: {{user.full_name()}}</td>
+            </tr>
+            <tr>
+                <td>Email: {{user.email}}</td>
+            </tr>
+            <tr>
+                <td>Created ON: {{user.created_at.strftime("%b %d %y")}}</td>
+            </tr>
+            <tr>
+                <td>Last Updated: {{user.updated_at.strftime("%b %d %y")}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <a class="btn btn-primary" href="/">Home</a>
+    <a class="btn btn-success m-3" href="/user/edit/{{ user.id }}">Edit</a>
+    <a class="btn btn-danger" href="/user/destroy/{{ user.id }}">Delete</a>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
