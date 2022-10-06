@@ -1,0 +1,28 @@
+INSERT INTO  dojos (name)
+VALUES ("Hidden Tiger"), ("Wild Lizard"), ("Angry Hamster");
+
+SELECT * FROM dojos;
+
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE FROM dojos;
+
+SELECT * FROM dojos;
+
+INSERT INTO  dojos (name)
+VALUES ("Hidden Tiger"), ("Wild Lizard"), ("Angry Hamster");
+
+SELECT * FROM dojos;
+
+INSERT INTO ninjas (first_name, last_name, age, dojo_id) 
+VALUES ("Cliff","Helms",36,4),("Kevin","Owens",28,4),("Eric","Porter",40,4),
+("Bob", "Oden",52,5),("Phil","Reaper",88,5),("Damon","Riker",90,5),
+("Viktor","White",18,6),("George","Brown",120,6),("Usop","Fable",22,6);
+
+SELECT * FROM ninjas WHERE dojo_id = 4;
+
+SELECT * FROM ninjas WHERE dojo_id = 6;
+
+SELECT dojos.id, dojos.name, dojos.created_at, dojos.updated_at FROM dojos
+JOIN ninjas ON ninjas.dojo_id = dojos.id
+ORDER BY ninjas.id DESC LIMIT 1;
