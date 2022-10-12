@@ -1,0 +1,10 @@
+{
+    "vscode-pets.petSize": "nano",
+    "vscode-pets.petType": "clippy",
+    "vscode-pets.position": "explorer",
+    "vscode-pets.theme": "castle",
+    "vscode-pets.petColor": "green",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false,
+    "python.linting.flake8Enabled": false
+}
