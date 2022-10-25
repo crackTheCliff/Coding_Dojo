@@ -20,7 +20,7 @@ class Ninja {
 
     drinkSake() {
         this.health += 10;
-        console.log("*Drinks Sake* My health right is now: " + this.health);
+        console.log("*Drinks Sake* My health is now: " + this.health);
     }
 }
 
