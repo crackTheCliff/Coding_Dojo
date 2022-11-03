@@ -4,7 +4,7 @@ import { useParams } from 'react-router';
 const Home = () => {
 
   const { wordOrNumber, fontColor, backgroundColor } = useParams();
-
+//Cycle through conditions
   return (
     <div>
       {
