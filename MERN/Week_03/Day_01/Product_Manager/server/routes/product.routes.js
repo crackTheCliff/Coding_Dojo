@@ -7,6 +7,5 @@ module.exports = (app) => {
     app.get("/api/products/:id", ProductController.findProductById);
     app.post("/api/products/new", ProductController.createNewProduct);
     app.put("/api/products/edit/:id", ProductController.updateProductById);
-    app.delete("/api/products/delete", ProductController.deleteAllProducts);
     app.delete("/api/products/delete/:id", ProductController.deleteProductById);
 };

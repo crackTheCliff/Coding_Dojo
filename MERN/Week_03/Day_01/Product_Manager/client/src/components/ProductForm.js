@@ -1,41 +1,63 @@
-import React, { useState } from 'react'
-import axios from 'axios';
-const ProductForm = () => {
-    //keep track of what is being typed via useState hook
-    const [title, setTitle] = useState("");
-    const [price, setPrice] = useState("");
-    const [description, setDescription] = useState("");
-    //handler when the form is submitted
-    const onSubmitHandler = e => {
-        //prevent default behavior of the submit
-        e.preventDefault();
-        //make a post request to create a new person
-        axios.post('http://localhost:8000/api/people', {
-            title,
-            price,
-            description
-        })
-            .then(res => console.log(res))
-            .catch(err => console.log(err))
-    }
-    //onChange to update title, price, & description
+import React, { useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
+const ProductForm = (props) => {
+    const navigate = useNavigate();
+    const [form, setForm] = useState({
+        title: "",
+        price: 0,
+        description: "",
+    });
+
+    const onChangeHandler = (e) => {
+        setForm({
+            ...form,
+            [e.target.name]: e.target.value,
+        });
+    };
+
+    const onSubmitHandler = (e) => {
+        // e.preventDefault();
+        axios.post("http://localhost:8000/api/products/new", form)
+            .then((res) => console.log("Response:", res))
+            .then((res) => navigate("/"))
+            .catch((err) => console.log("Error", err));
+    };
+
     return (
-        <form onSubmit={onSubmitHandler}>
-            <p>
-                <label>Title:</label><br />
-                <input type="text" onChange={(e) => setTitle(e.target.value)} value={title} />
-            </p>
-            <p>
-                <label>Price:</label><br />
-                <input type="text" onChange={(e) => setPrice(e.target.value)} value={price} />
-            </p>
-            <p>
-                <label>Description:</label><br />
-                <input type="text" onChange={(e) => setDescription(e.target.value)} value={description} />
-            </p>
-            <input type="submit" />
-        </form>
-    )
-}
+        <div className="container">
+            <h1 className="display-5">Product Manager</h1>
+            <div className="row d-flex justify-content-center">
+                <form onSubmit={onSubmitHandler} className="form-group col-sm-6">
+                    <label>Title: </label>
+                    <input
+                        type="text"
+                        name="title"
+                        onChange={onChangeHandler}
+                        className="form-control"
+                    ></input>
+                    <label>Price: </label>
+                    <input
+                        type="text"
+                        name="price"
+                        placeholder="$"
+                        onChange={onChangeHandler}
+                        className="form-control"
+                    ></input>
+                    <label>Description: </label>
+                    <input
+                        type="text"
+                        name="description"
+                        onChange={onChangeHandler}
+                        className="form-control"
+                    ></input>{" "}
+                    <br />
+                    <input type="submit" className="btn btn-success" value="Create" />
+                </form>
+            </div>
+        </div>
+    );
+};
 
 export default ProductForm;
