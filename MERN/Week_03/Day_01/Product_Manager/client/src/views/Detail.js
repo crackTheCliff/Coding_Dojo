@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link, useParams, useNavigate } from "react-router-dom";
 
 const Detail = () => {
-    const {id} = useParams()
+    const {id} = useParams();
     const navigate = useNavigate();
     const [product, setProduct] = useState({});
     useEffect(() => {

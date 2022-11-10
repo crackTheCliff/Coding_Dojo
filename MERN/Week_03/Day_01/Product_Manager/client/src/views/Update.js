@@ -10,7 +10,8 @@ const Update = () => {
     const [description, setDescription] = useState("");
 
     useEffect(() => {
-        axios.get("http://localhost:8000/api/products/" + id).then((res) => {
+        axios.get("http://localhost:8000/api/products/" + id)
+        .then((res) => {
             console.log(res.data);
             setTitle(res.data.title);
             setPrice(res.data.price);
