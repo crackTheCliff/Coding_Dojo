@@ -1,0 +1,15 @@
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\bin\Debug\net6.0\FundamentalsI.exe
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\bin\Debug\net6.0\FundamentalsI.deps.json
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\bin\Debug\net6.0\FundamentalsI.runtimeconfig.json
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\bin\Debug\net6.0\FundamentalsI.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\bin\Debug\net6.0\FundamentalsI.pdb
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.AssemblyReference.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfoInputs.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfo.cs
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.CoreCompileInputs.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\refint\FundamentalsI.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.pdb
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\FundamentalsI.genruntimeconfig.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\FundamentalsI\obj\Debug\net6.0\ref\FundamentalsI.dll
