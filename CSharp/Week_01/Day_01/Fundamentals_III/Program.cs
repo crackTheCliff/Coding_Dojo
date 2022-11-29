@@ -85,19 +85,19 @@
 // Console.WriteLine(FindKey(MyDict, "four"));
 
 // // 8. Generate a Dictionary
-// List<string> Names = new List<string>() { "Cliff", "Nick", "Luke", "Eric", "Tom" };
-// List<int> Nums = new List<int>() { 1, 2, 3, 4, 5 };
+List<string> Names = new List<string>() { "Cliff", "Nick", "Luke", "Eric", "Tom" };
+List<int> Nums = new List<int>() { 1, 2, 3, 4, 5 };
 
-// static Dictionary<string, int> GenerateDictionary(List<string> Names, List<int> Numbers)
-// {
-//     Dictionary<string, int> NewDict = new Dictionary<string, int>();
-//     for(int i = 0; i<Names.Count; i++)
-//     {
-//         NewDict.Add(Names[i], Numbers[i]);
-//     }
-//     return NewDict;
-// }
-// foreach (var item in GenerateDictionary(Names, Nums))
-// {
-//     Console.WriteLine(item);
-// }
+static Dictionary<string, int> GenerateDictionary(List<string> Names, List<int> Numbers)
+{
+    Dictionary<string, int> NewDict = new Dictionary<string, int>();
+    for(int i = 0; i<Names.Count; i++)
+    {
+        NewDict.Add(Names[i], Numbers[i]);
+    }
+    return NewDict;
+}
+foreach (var item in GenerateDictionary(Names, Nums))
+{
+    Console.WriteLine(item);
+}
