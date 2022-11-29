@@ -1,0 +1,15 @@
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\bin\Debug\net6.0\Puzzles.exe
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\bin\Debug\net6.0\Puzzles.deps.json
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\bin\Debug\net6.0\Puzzles.runtimeconfig.json
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\bin\Debug\net6.0\Puzzles.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\bin\Debug\net6.0\Puzzles.pdb
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.csproj.AssemblyReference.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.AssemblyInfoInputs.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.AssemblyInfo.cs
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.csproj.CoreCompileInputs.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\refint\Puzzles.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.pdb
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\Puzzles.genruntimeconfig.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_01\Puzzles\obj\Debug\net6.0\ref\Puzzles.dll
