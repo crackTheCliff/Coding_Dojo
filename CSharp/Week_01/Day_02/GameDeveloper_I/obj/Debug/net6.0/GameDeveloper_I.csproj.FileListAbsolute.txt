@@ -1,0 +1,15 @@
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\bin\Debug\net6.0\GameDeveloper_I.exe
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\bin\Debug\net6.0\GameDeveloper_I.deps.json
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\bin\Debug\net6.0\GameDeveloper_I.runtimeconfig.json
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\bin\Debug\net6.0\GameDeveloper_I.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\bin\Debug\net6.0\GameDeveloper_I.pdb
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.csproj.AssemblyReference.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.AssemblyInfoInputs.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.AssemblyInfo.cs
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.csproj.CoreCompileInputs.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\refint\GameDeveloper_I.dll
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.pdb
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\GameDeveloper_I.genruntimeconfig.cache
+C:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_02\GameDeveloper_I\obj\Debug\net6.0\ref\GameDeveloper_I.dll
