@@ -13,8 +13,11 @@ foreach (Vehicle item in vList)
         fuelList.Add(item as INeedFuel);
     }
 }
-Console.WriteLine(string.Join(',', fuelList));
-
+// Console.WriteLine(string.Join(',', fuelList));
+foreach (INeedFuel item in fuelList)
+{
+    item.GiveFuel(10);
+}
 
 // stang.ShowInfo();
 // sie.ShowInfo();

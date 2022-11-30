@@ -10,7 +10,7 @@ class Horse : Vehicle, INeedFuel
         public void GiveFuel(int Amount)
     {
         FuelTotal += Amount;
-        Console.WriteLine($"You gave {_Name}. Your horse ate {FuelTotal} much hay.");
+        Console.WriteLine($"You fed {_Name}. Your horse ate {FuelTotal} much hay.");
     }
         public override void ShowInfo()
     {
