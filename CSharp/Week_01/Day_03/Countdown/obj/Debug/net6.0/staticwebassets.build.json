@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "DTKH+mgadfu7oh1OrxsUTIzIpSPAuuvuFtpUZoRo+aw=",
+  "Source": "Countdown",
+  "BasePath": "_content/Countdown",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Countdown\\wwwroot",
+      "Source": "Countdown",
+      "ContentRoot": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_03\\Countdown\\wwwroot\\",
+      "BasePath": "_content/Countdown",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
