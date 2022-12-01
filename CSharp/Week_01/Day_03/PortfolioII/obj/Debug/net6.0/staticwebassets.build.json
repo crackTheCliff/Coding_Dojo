@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "XGROcezrBOCx0wTYPEdA4aSo4JB95ndGdbrUu2NWEtA=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII\\wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_03\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_03\\PortfolioII\\wwwroot\\images\\imagePH.png",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_03\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/imagePH.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\imagePH.png"
+    },
+    {
+      "Identity": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_03\\PortfolioII\\wwwroot\\images\\profileAvatar.jpeg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_03\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/profileAvatar.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profileAvatar.jpeg"
+    }
+  ]
+}
