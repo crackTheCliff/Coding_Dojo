@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<AUser>
+<div class="text-center">
+    <h1 class="display-4">The Dream Team</h1>
+    @{
+        foreach (AUser item in Model)
+        {
+            <p>@item.aUser</p>
+        }
+    }
+</div>

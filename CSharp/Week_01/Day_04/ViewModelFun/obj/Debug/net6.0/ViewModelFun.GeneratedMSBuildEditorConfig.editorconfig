@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\coman\Coding_Dojo\CSharp\Week_01\Day_04\ViewModelFun
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/coman/Coding_Dojo/CSharp/Week_01/Day_04/ViewModelFun/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[c:/Users/coman/Coding_Dojo/CSharp/Week_01/Day_04/ViewModelFun/Views/Home/AUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/coman/Coding_Dojo/CSharp/Week_01/Day_04/ViewModelFun/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[c:/Users/coman/Coding_Dojo/CSharp/Week_01/Day_04/ViewModelFun/Views/Home/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/coman/Coding_Dojo/CSharp/Week_01/Day_04/ViewModelFun/Views/Home/Numbers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOdW1iZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/coman/Coding_Dojo/CSharp/Week_01/Day_04/ViewModelFun/Views/Home/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/coman/Coding_Dojo/CSharp/Week_01/Day_04/ViewModelFun/Views/Shared/Error.cshtml]

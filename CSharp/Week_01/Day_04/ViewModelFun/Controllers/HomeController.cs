@@ -13,14 +13,55 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Message()
     {
-        return View();
+        Message message = new Message()
+        {
+            MyMessage = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ipsam, neque repellendus, eos est excepturi quas illo deleniti, sequi consequatur quae! Distinctio nemo nobis veritatis ad voluptates commodi odio deleniti veniam necessitatibus eius! Incidunt unde, non, minima, quia iste dolore similique maiores reprehenderit praesentium doloribus quas et eligendi nostrum. Itaque voluptates, repellendus iure placeat maxime ad ex cumque quae esse facere provident, a aperiam dolorem consequatur sit minima id exercitationem ratione. Repellendus tenetur eos, quaerat minima cum eius omnis in ipsam vero officia accusamus aliquam mollitia amet at totam quasi non soluta. Necessitatibus, reiciendis. Quam consequatur ipsam inventore fugit dolores?"
+        };
+        return View(message);
     }
 
-    public IActionResult Privacy()
+    public IActionResult Numbers()
     {
-        return View();
+        int[] numbers = new int[]
+        {
+            1,2,3,4,5
+        };
+        return View(numbers);
+    }
+
+    public IActionResult AUser()
+    {
+        AUser aUser = new AUser()
+        {
+            aUser = "Cliff Helms"
+        };
+        return View(aUser);
+    }
+
+    public IActionResult Users()
+    {
+        AUser firstUser = new AUser()
+        {
+            aUser = "Cliff Helms"
+
+        };
+        AUser secondUser = new AUser()
+        {
+            aUser = "Nick Gibson"
+
+        };
+        AUser thirdUser = new AUser()
+        {
+            aUser = "Kevin Dang"
+
+        };
+        List<AUser> userList = new List<AUser>();
+        userList.Add(firstUser);
+        userList.Add(secondUser);
+        userList.Add(thirdUser);
+        return View(userList);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

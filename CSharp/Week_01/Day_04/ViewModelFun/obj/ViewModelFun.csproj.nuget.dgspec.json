@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj": {}
+    "c:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj": {
+    "c:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj",
+        "projectUniqueName": "c:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj",
         "projectName": "ViewModelFun",
-        "projectPath": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj",
+        "projectPath": "c:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\ViewModelFun.csproj",
         "packagesPath": "C:\\Users\\coman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\obj\\",
+        "outputPath": "c:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_01\\Day_04\\ViewModelFun\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\coman\\AppData\\Roaming\\NuGet\\NuGet.Config"
