@@ -13,7 +13,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    static Survey survey;
+    static Survey? survey;
 
     [HttpGet("")]
     public IActionResult Index()
