@@ -10,7 +10,7 @@ List<INeedFuel> fuelList = new List<INeedFuel>();
 foreach (Vehicle item in vList)
 {
     if (item is INeedFuel){
-        fuelList.Add(item as INeedFuel);
+        // fuelList.Add(item as INeedFuel);
     }
 }
 // Console.WriteLine(string.Join(',', fuelList));
