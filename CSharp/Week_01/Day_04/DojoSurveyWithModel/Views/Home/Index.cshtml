@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Survey
+<div class="d-flex justify-content-center m-5">
+    <form action="results" method="post">
+        <div class="d-flex mt-4">
+            <label for="name">Name:</label>
+            <input type="text" name="name" class="form-control" />
+        </div>
+        <div class="d-flex mt-4">
+            <label for="location">Location: </label>
+            <select name="location" class="form-control">
+                <option value="New Orleans">New Orleans</option>
+                <option value="Orlando">Orlando</option>
+                <option value="Boston">Boston</option>
+                <option value="San Jose">San Jose</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+        </div>
+        <div class="d-flex mt-4">
+            <label for="language">Favorite Language:</label>
+            <select name="language" class="form-control">
+                <option value="C#">C#</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select>
+        </div>
+        <div class="d-flex mt-4">
+            <label for="comment">Comment: (Optional)</label>
+            <textarea name="comment" class="form-control"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-success mt-4" />
+    </form>
+</div>
