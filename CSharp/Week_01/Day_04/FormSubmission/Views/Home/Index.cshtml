@@ -1,0 +1,38 @@
+﻿﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Form
+
+<div class="text-center">
+    <h1 class="display-4 mb-3">Enter your information</h1>
+    <div class="d-flex justify-content-center p-3">
+        <form asp-action="Process" asp-controller="Home" method="post" class="col-6 border p-4 bg-light">
+            <div class="mb-3">
+                <label asp-for="Name">Name:</label>
+                <input asp-for="Name" class="form-control">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email">Email Address:</label>
+                <input asp-for="Email" class="form-control">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DoB">Date of Birth:</label>
+                <input asp-for="DoB" class="form-control">
+                <span asp-validation-for="DoB" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Password">Password:</label>
+                <input asp-for="Password" class="form-control">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="FavOddNum">Favorite Odd Number:</label>
+                <input asp-for="FavOddNum" class="form-control">
+                <span asp-validation-for="FavOddNum" class="text-danger"></span>
+            </div>
+            <input type="submit" value="Submit" class="mb-3 btn btn-success">
+        </form>
+    </div>
+</div>
