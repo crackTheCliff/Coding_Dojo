@@ -54,6 +54,7 @@ public class HomeController : Controller
         HttpContext.Session.SetInt32("Count", (int)count);
         return RedirectToAction("ButtonPage");
     }
+    
     [HttpPost("minusone")]
     public IActionResult MinusOne()
     {
@@ -66,6 +67,7 @@ public class HomeController : Controller
         HttpContext.Session.SetInt32("Count", (int)count);
         return RedirectToAction("ButtonPage");
     }
+
     [HttpPost("timestwo")]
     public IActionResult TimesTwo()
     {
@@ -78,6 +80,7 @@ public class HomeController : Controller
         HttpContext.Session.SetInt32("Count", (int)count);
         return RedirectToAction("ButtonPage");
     }
+
     [HttpPost("random")]
     public IActionResult Random()
     {
