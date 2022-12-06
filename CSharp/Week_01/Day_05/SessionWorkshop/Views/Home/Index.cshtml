@@ -2,11 +2,11 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center mt-5">
+<div class="d-flex flex-column align-items-center mt-5 gap-3">
     <h1>Welcome!</h1>
     <h2>Please give your name:</h2>
 
-    <form action="/submit" method="post">
+    <form action="/submit" method="post" class="d-flex flex-column align-items-center gap-3">
         <input type="text" name="Name" class="form-control">
         <input type="submit" value="Submit" class="btn btn-success">
     </form>
