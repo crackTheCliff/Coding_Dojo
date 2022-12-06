@@ -30,7 +30,6 @@ public class HomeController : Controller
         {
             return View("Index");
         }
-        return View();
     }
 
     [HttpGet("success")]
