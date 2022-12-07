@@ -109,7 +109,7 @@ public class HomeController : Controller
             theDish.Description = updatedDish.Description;
             theDish.UpdatedAt = DateTime.Now;
             _context.SaveChanges();
-            return View("ShowDish", updatedDish);
+            return Redirect($"/dishes/{DishId}");
         }
         else
         {
