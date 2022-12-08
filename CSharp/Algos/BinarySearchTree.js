@@ -39,26 +39,46 @@ class BinarySearchTree {
     }
 
     /**
-     * Determines if this tree contains the given searchVal.
+     * Inserts a new node with the given newVal in the right place to preserver
+     * the order of this tree.
      * - Time: O(?).
      * - Space: O(?).
+     * @param {number} newVal The data to be added to a new node.
+     * @returns {BinarySearchTree} This tree.
+     */
+    insert(newVal) { }
+
+    /**
+     * Inserts a new node with the given newVal in the right place to preserver
+     * the order of this tree.
+     * - Time: O(?).
+     * - Space: O(?).
+     * @param {number} newVal The data to be added to a new node.
+     * @param {Node} curr The node that is currently accessed from the tree as
+     *    the tree is being traversed.
+     * @returns {BinarySearchTree} This tree.
+     */
+    insertRecursive(newVal, curr = this.root) { }
+
+    /**
+     * Determines if this tree contains the given searchVal.
+     * - Time: O(h) linear, h = height of tree.
+     * - Space: O(1) constant.
      * @param {number} searchVal The number to search for in the node's data.
      * @returns {boolean} Indicates if the searchVal was found.
      */
     contains(searchVal) {
-        if (this.isEmpty()){
-            return false;
-        }
-        let runner = this.root;
-        while (runner != null) {
-            if (runner.data === searchVal) {
+        let current = this.root;
+
+        while (current) {
+            if (current.data === searchVal) {
                 return true;
             }
-            else if (searchVal > runner.data) {
-                runner = runner.right;
-            }
-            else {
-                runner = runner.left;
+
+            if (searchVal < current.data) {
+                current = current.left;
+            } else {
+                current = current.right;
             }
         }
         return false;
@@ -66,31 +86,35 @@ class BinarySearchTree {
 
     /**
      * Determines if this tree contains the given searchVal.
-     * - Time: O(?).
-     * - Space: O(?).
+     * - Time: O(h) linear, h = height of tree.
+     * - Space: O(h) linear due to the call stack.
      * @param {number} searchVal The number to search for in the node's data.
      * @returns {boolean} Indicates if the searchVal was found.
      */
     containsRecursive(searchVal, current = this.root) {
-        if (!current) {
+        if (current === null) {
             return false;
         }
-        else if (current.data === searchVal) {
+
+        if (current.data === searchVal) {
             return true;
         }
-        else if (searchVal > current.data) {
-            return this.containsRecursive(searchVal, current.right);
-        }
-        else if (searchVal < current.data) {
+
+        if (searchVal < current.data) {
             return this.containsRecursive(searchVal, current.left);
+        }
+
+        if (searchVal > current.data) {
+            return this.containsRecursive(searchVal, current.right);
         }
     }
 
     /**
      * Calculates the range (max - min) from the given startNode.
-     * - Time: O(?).
-     * - Space: O(?).
-     * @param {Node} startNode The node to start from to calculate the range.
+     * - Time: O(rightHeight + leftHeight) -> still linear so simplify to O(h).
+     * - Space: O(h) linear due to the call stack. The max side finishes before
+     *    the right min side is added to the stack.
+     * @param {BSTNode} startNode The node to start from to calculate the range.
      * @returns {number|null} The range of this tree or a sub tree depending on if the
      *    startNode is the root or not.
      */
@@ -219,7 +243,6 @@ const twoLevelTree = new BinarySearchTree();
 twoLevelTree.root = new BSTNode(10);
 twoLevelTree.root.left = new BSTNode(5);
 twoLevelTree.root.right = new BSTNode(15);
-console.log(twoLevelTree.containsRecursive(5));
 
 /* threeLevelTree 
     root
