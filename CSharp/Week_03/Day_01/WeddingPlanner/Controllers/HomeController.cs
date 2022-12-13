@@ -5,6 +5,7 @@ using WeddingPlanner.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace WeddingPlanner.Controllers;
 public class HomeController : Controller
@@ -119,12 +120,21 @@ public class HomeController : Controller
     [HttpPost("weddings/new/create")]
     public IActionResult CreateWedding(Wedding newWedding)
     {
+        foreach (KeyValuePair<string, ModelStateEntry> error in ModelState)
+        {
+            Console.WriteLine("********** ERROR ********");
+            Console.WriteLine($"Field: {error.Key}");
+            foreach (ModelError err in error.Value.Errors)
+            {
+                Console.WriteLine($"Error: {err.ErrorMessage}");
+            }
+        }
         if (ModelState.IsValid)
         {
             _context.Add(newWedding);
             _context.SaveChanges();
             int WeddingId = newWedding.WeddingId;
-            return RedirectToAction("ShowWedding", new {WeddingId = newWedding.WeddingId});
+            return RedirectToAction("ShowWedding", new { WeddingId = newWedding.WeddingId });
         }
         else
         {

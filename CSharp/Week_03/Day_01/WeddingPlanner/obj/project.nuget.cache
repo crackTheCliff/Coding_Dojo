@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oX2yR7S7CnXF5vBw21DARl9hTTOWBnyC7CjgdtZ6LFWtC1e3Fo33Kj+AL8XZyFND0Fxv5ufrKvTlPYjANxhulA==",
+  "dgSpecHash": "HIOt8lUFkqAayUENfwZRxciHluKrikJlUH/W68XcfjZtLx75BtfhKobb+ZQNVzbZKEg+lyZjYfDoHsC9CQMJhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_03\\Day_01\\WeddingPlanner\\WeddingPlanner.csproj",
+  "projectFilePath": "c:\\Users\\coman\\Coding_Dojo\\CSharp\\Week_03\\Day_01\\WeddingPlanner\\WeddingPlanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\coman\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\coman\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
